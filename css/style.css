@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0e7d5;
+}
+.areaPrincipal{
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/poster-promotion-tea-milk-drink-powerpoint-background_dca2cd8a1a__960_540.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#encabezado{
+    background:#fce5b1;
+    height: 240px;
+    text-align: center;
+    background-image: url(../img/logo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+.piePagina{
+    width: 100%;
+    height: 80px;
+    background: #decba0;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+
+}
+#menu{
+    height: 50px;
+    position: relative;
+    top: 200px;
+    background:#e8de92;
+
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#e8de92 ;
+    padding-left: 150px;
+
+    
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+li a:hover{
+    color:  #b39d69;
+
+}
+#datos{
+    width: 600px;
+    background-color: #fce5b1;
+    height: 400px;
+    margin:auto;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    padding: 100px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.tarjeta:hover {
+    transform: scale(1.05); 
+    z-index: 1;
+}
+
+.grid-container:hover .tarjeta:not(:hover) {
+    opacity: 0.5;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta .contenido {
+    padding: 10px;
+}
+
+.tarjeta h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tarjeta p {
+    font-size: 14px;
+}
+.tarjeta img{
+    opacity: 1;
+}
+.About{
+    padding: 40px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.About H2{
+    text-align: center;
+}
+.About p{
+    flex: 1;
+}
+.abimagen {
+    width: 300px; 
+    height: 300px;
+    background-image: url(https://www.pinterpolitik.com/wp-content/webp-express/webp-images/uploads/2023/08/konten-artikel-7-varian-rasa-minuman-bubble-tea-paling-populer-di-dunia.png.webp);
+    background-size: cover;
+    margin: 0 auto; 
+    text-align: center;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.imagen {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.contactous{
+    padding: 40px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.redes-sociales {
+    margin-top: 20px;
+    display: flex;
+    padding-left: 40px;
+    
+}
+
+.redes-sociales a {
+    margin-right: 30px;
+}
+
+.redes-sociales img {
+    width: 40px; 
+    height: 40px;
+}
+    
+
+
+
+
